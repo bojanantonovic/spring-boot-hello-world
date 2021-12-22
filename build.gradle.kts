@@ -13,6 +13,8 @@ repositories {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web:2.6.1")
+    testImplementation("org.springframework.boot:spring-boot-starter-test:2.6.1")
+    testImplementation("org.junit.jupiter:junit-jupiter-engine:5.8.2")
 }
 
 tasks.getByName<Test>("test") {
